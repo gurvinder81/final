@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>TD Technical Test</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!--Navigation Starts-->
+<nav class="navbar navbar-inverse navbrand">
+  <div class="container">
+  <div class="login-hide"><a href="#"><i class="fa fa-lock" aria-hidden="true"></i></a></div>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><img src="images/tdinsurance-logo.png" alt="TD Insurance Logo" title="TD Insurance" class="img-responsive" /></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navleft">
+        <li class="margin-left30"><a href="#">Products</a></li>
+        <li><a href="#">Claims</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navright pull-right">
+      <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Ontario&nbsp;&nbsp;<span class="glyphicon glyphicon-menu-down"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Alberta</a></li>
+            <li><a href="#">British Columbia</a></li>
+            <li><a href="#">Manitoba</a></li>
+            <li><a href="#">New Brunswick</a></li>
+            <li><a href="#">Newfoundland/Labrador</a></li>
+            <li><a href="#">Northwest Territories</a></li>
+            <li><a href="#">Nova Scotia</a></li>
+            <li><a href="#">Nunavut</a></li>
+            <li class="city-active"><a href="#">Ontario<span class="glyphicon glyphicon-ok"></span></a></li>
+            <li><a href="#">Prince Edward Island</a></li>
+            <li><a href="#">Quebec</a></li>
+            <li><a href="#">Saskatchewan</a></li>
+            <li><a href="#">Yukon</a></li>
+          </ul>
+        </li>
+        <li class="dropdown language">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">EN&nbsp;&nbsp;<span class="glyphicon glyphicon-menu-down"></span></a>
+          <ul class="dropdown-menu">
+            <li class="city-active"><a href="#">English<span class="glyphicon glyphicon-ok"></span></a></li>
+            <li><a href="#">Français</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-search"></span></a>
+          <ul class="dropdown-menu">
+			<li class="search-div"><input type="search" placeholder="Search"><a style="padding: 5px;" href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+          </ul>
+        </li>
+        <li class="login"><a href="#"><i class="fa fa-lock" aria-hidden="true"></i> Login</a></li>
+      </ul>
+	  </div>
+  </div>
+</nav>
+<!--Navigation Ends-->
+
+<!--Container Starts-->
+<div class="container">
+	<div class="col-md-9 col-sm-8 col-xs-12">
+        <div><h3>Tell Us About Yourself</h3>
+        <p>Thanks for choosing TD Insurance! In order to safely set up your new accounts and services, please tell us about yourself.</p>
+        <h3>Personal Information</h3></div>
+
+  <form>
+    <div class="col-md-2 col-sm-12 form-group paddingleft0">
+        <select class="form-control">
+        <option value="title">Title*</option>
+        <option value="mr">Mr.</option>
+        <option value="miss">Miss</option>
+        <option value="ms">Ms</option>
+        </select>
+    </div>
+    <div class="col-md-3 col-sm-12 form-group">
+    	<input type="text" class="form-control" placeholder="First Name*" name="firstname">
+    </div>
+    <div class="col-md-3 col-sm-12 form-group">
+    	<input type="text" class="form-control" placeholder="Middle Initial" name="middlename">
+    </div>
+    <div class="col-md-4 col-sm-12 form-group">
+    	<input type="text" class="form-control" placeholder="Last Name*" name="lastname">
+    </div>
+    <div class="col-md-4 col-sm-12 form-group paddingleft0">
+        <div class="qmark">
+        <input type="email" class="form-control" placeholder="Email address*" name="email">
+        <span><a href="#"><img src="images/questionmark.png" alt="Tip" title="Tip" /></a></span>
+        </div>
+    </div>
+    <div class="col-md-4 col-sm-12 form-group">
+    	<input type="text" class="form-control" placeholder="Date of Birth*" name="dob">
+    </div>
+    
+    <div class="col-md-4 col-sm-12 form-group">
+        <div class="qmark">
+            <input type="text" class="form-control" placeholder="Social Insurance Number*" name="dob">
+            <span><a href="#"><img src="images/questionmark.png" alt="Tip" title="Tip" /></a></span>
+        </div>
+    </div>
+  </form>
+    <div class="button-top">
+        <button type="reset" class="btn btn-warning btn-red">Submit</button>
+        <button type="submit" class="btn btn-default btn-success btn-green">Submit</button>
+    </div>
+	</div>
+    <div class="col-md-3 col-sm-4 col-xs-12 paddingbottom sidecontent">
+        <p>You are applying for:</p>
+        <h3>TD<span>&#174;</span> Travel Medical Insurance</h3>
+        <button type="button" class="btn btn-default btn-success btn-green">See More Coverage Options</button>
+    </div>
+</div>
+<!--Container Ends-->
+
+<!--Footer Starts-->
+<footer>
+    <div class="footer-widget">
+        <div class="container">
+            <div class="col-sm-12 bg-img">
+                <div class="paddingtop50">
+                <p class="footertext">Need to talk to us directly? <span class="contactus"><a href="#">Contact us <span class="glyphicon glyphicon-menu-right"></span></a></span></p>
+                </div>
+                <hr>
+                <div class="footerlinks">
+                <ul>
+                <li><a href="#">Privacy and Security</a></li>
+                <li><a href="#">Legal</a></li>
+                <li><a href="#">Accessibility</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                </ul>
+                </div>
+                <hr>
+                <div class="sociallinks">
+                <ul>
+                <li><a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-twitter"></a></li>
+                <li><a href="#" class="fa fa-youtube-play"></a></li>
+                <li><a href="#" class="fa fa-rss"></a></li>
+                </ul>
+                </div>
+                <br><br>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--/Footer Ends-->
+</body>
+</html>
